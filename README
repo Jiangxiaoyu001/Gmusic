@@ -1,0 +1,11 @@
+1. #Install build-required
+	sudo apt-get install libgtk2.0*
+	sudo apt-get install mplayer
+	sudo apt-get install glade libglade2-dev
+   #gtk+2.
+   
+2. #Test run
+pkg-config --cflags --libs gtk+-2.0
+
+Result:
+-pthread -I/usr/local/include/gio-unix-2.0/ -I/usr/local/include/atk-1.0 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/include/gtk-2.0 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/freetype2 -I/usr/include/pixman-1 -I/usr/include/libpng12  
